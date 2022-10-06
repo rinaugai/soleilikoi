@@ -1010,6 +1010,12 @@ iframe {
         max-width: 546px;
     }
 
+    .flower06 {
+        width: 120px;
+        margin-left: 350px;
+        margin-top: -80px;
+    }
+
     .footer_nav {
         width: 80%;
     }

@@ -984,14 +984,14 @@ iframe {
     .g_nav_eg_sp_btn {
         font-family: 'Lora', serif;
         letter-spacing: 0.1em;
-        color: #80C4CE;
+        color: #F9D401;
     }
     
     .g_nav_ja_sp_btn {
         font-family: 'Noto Sans JP', sans-serif;
         font-size: 10px;
         letter-spacing: 0.1em;
-        color: #80C4CE;
+        color: #F9D401;
     }
 
 
@@ -1008,6 +1008,10 @@ iframe {
         font-size: 15px;
         line-height: 28px;
         max-width: 546px;
+    }
+
+    .footer_nav {
+        width: 80%;
     }
     
 }
@@ -1047,12 +1051,15 @@ iframe {
     }
 
     .main_inner h2 {
-        font-size: 31px;
-        line-height: 50px;
+        font-size: 22px;
+        line-height: 38px;
+        letter-spacing: 0.13em;
     }
 
     .main_inner p {
         max-width: 476px;
+        font-size: 14px;
+        line-height: 20px;
     }
 
     #top_info dl {
@@ -1061,6 +1068,14 @@ iframe {
 
     #top_info dt {
         text-align: left;
+    }
+
+    #concept {
+        padding-top: 72px;
+    }
+
+    .concept2 ul li {
+        line-height: 22px;
     }
 
     .concept_inner {
@@ -1085,6 +1100,7 @@ iframe {
         width: 100%;
         max-width: none;
         padding-right: 0;
+        line-height: 30px;
     }
 
     .concept1 h3 {
@@ -1101,6 +1117,7 @@ iframe {
 
     .concept2 p {
         width: 100%;
+        line-height: 30px;
     }
 
     .concept2 h3 {
@@ -1125,11 +1142,11 @@ iframe {
         display: flex;
         justify-content: space-between;
         width: 90%;
-        margin: 0 auto;
+        margin: 20px auto;
     }
 
     .sign {
-        width: 149px;
+        width: 170px;
     }
 
     .woman {
@@ -1144,9 +1161,18 @@ iframe {
         padding-top: 88px;
     }
 
+    .menu_name {
+        font-size: 20px;
+    }
+
+    .menu_name span {
+        font-size: 14px;
+    }
+
     .price {
         margin-top: -10px;
         margin-bottom: 24px;
+        font-size: 20px;
     }
 
     .menu_list .section_taitle {
@@ -1186,7 +1212,6 @@ iframe {
     .matsuyani_sub_img {
         display: flex;
         justify-content: space-between;
-        width: 76%;
     }
 
     .estetic_headspa {
@@ -1208,6 +1233,7 @@ iframe {
 
     #aroma {
         display: block;
+        padding-top: 80px;
     }
 
     #aroma .mainimg {
@@ -1217,7 +1243,7 @@ iframe {
 
     .flower03 {
         margin-left: 80%;
-        margin-top: -58px;
+        margin-top: -50px;
         width: 20%;
     }
 
@@ -1244,6 +1270,8 @@ iframe {
 
     .flower05 {
         width: 20%;
+        margin-bottom: -108px;
+        padding-top: 0;
     }
 
     #henna {
@@ -1262,6 +1290,10 @@ iframe {
         display: block;
     }
 
+    #staff {
+        padding-top: 80px;
+    }
+
     #staff .section_taitle {
         margin-bottom: 40px;
     }
@@ -1275,6 +1307,16 @@ iframe {
         width: 100%;
         max-width: 727px;
         padding-top: 24px;
+    }
+
+    .staff_aisatsu_inner {
+        font-size: 15px;
+        line-height: 24px;
+        padding-bottom: 40px;
+    }
+
+    .qualification ul li {
+        font-size: 14px;
     }
 
     #staff .flower07 {
@@ -1311,13 +1353,19 @@ iframe {
         margin: 0 auto;
     }
 
+    .contact h4 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
     .contact h4::after {
-        left: 44%;
+        left: 40%;
+        top: 67px;
     }
 
     .instagram_btn_icon {
         width: 200px;
-        margin: 107px auto 0;
+        margin: 97px auto 0;
     }
 
 
@@ -1345,6 +1393,8 @@ iframe {
     
     .footer_nav {
         display: block;
+        width: 90%;
+        padding-bottom: 18px;
     }
 
     .footer_nav h1 {
@@ -1358,6 +1408,6 @@ iframe {
     }
 
     .footer_nav ul li {
-        margin: 12px 12px;
+        margin: 20px auto;
     }
 }

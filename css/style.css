@@ -913,7 +913,7 @@ iframe {
 
     .btn span{
         background: #fff;
-        width: 33px;
+        width: 30px;
         height: 3px;
         display: block;
         position: relative;
@@ -925,7 +925,7 @@ iframe {
     .btn span::before, 
     .btn span::after{
         content:'';
-        width: 33px;
+        width: 30px;
         height: 3px;
         background: #fff;
         display: block;

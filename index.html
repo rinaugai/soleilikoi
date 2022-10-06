@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ソレイユ憩</title>
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'wcz1bsl',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="nav_box">
+            <h1 class="header_logo">
+                <a href="#">
+                    <picture>
+                        <source srcset="images/logo_sp.svg" media="(max-width:767px)">
+                        <img src="images/logo_pc.svg" alt="ソレイユ憩">
+                    </picture>
+                </a>
+            </h1>
+            <ul class="header_g_nav">
+                <li><a href="#concept">
+                        <span class="g_nav_eg">CONCEPT</span><br>
+                        <span class="g_nav_ja">サロンについて</span>
+                    </a>
+                </li>
+                <li><a href="#menu">
+                        <span class="g_nav_eg">MENU</span><br>
+                        <span class="g_nav_ja">メニュー</span>
+                    </a>
+                </li>
+                <li><a href="#staff">
+                        <span class="g_nav_eg">STAFF</span><br>
+                        <span class="g_nav_ja">スタッフご挨拶</span>
+                    </a>
+                </li>
+                <li><a href="#access">
+                        <span class="g_nav_eg">ACCESS</span><br>
+                        <span class="g_nav_ja">アクセス</span>
+                    </a>
+                </li>
+
+            </ul>
+            <div class="reserve_btn">
+                <a href="">
+                    <p>予約する</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="btn"><span></span></div>
+        <div class="sp_nav">
+            <ul>
+                <li><a href="#concept">
+                        <span class="g_nav_eg_sp">CONCEPT</span><br>
+                        <span class="g_nav_ja_sp">サロンについて</span>
+                    </a>
+                </li>
+                <li><a href="#menu">
+                        <span class="g_nav_eg_sp">MENU</span><br>
+                        <span class="g_nav_ja_sp">メニュー</span>
+                    </a>
+                </li>
+                <li><a href="#staff">
+                        <span class="g_nav_eg_sp">STAFF</span><br>
+                        <span class="g_nav_ja_sp">スタッフご挨拶</span>
+                    </a>
+                </li>
+                <li><a href="#access">
+                        <span class="g_nav_eg_sp">ACCESS</span><br>
+                        <span class="g_nav_ja_sp">アクセス</span>
+                    </a>
+                </li>
+                <li><a href="">
+                        <span class="g_nav_eg_sp_btn">RESERVE</span><br>
+                        <span class="g_nav_ja_sp_btn">予約する</span>
+                    </a>
+                </li>
+            </ul>
+            <!-- <div class="reserve_btn">
+                <a href="">
+                    <p>予約する</p>
+                </a>
+            </div> -->
+        </div>
+    </header>
+    <main>
+        <div class="mainvisual">
+            <picture>
+                <source srcset="images/mainvisual_sp.jpg" media="(max-width:767px)">
+                <img src="images/mainvisual_pc.jpg" alt="メインビジュアル_サロンの写真">
+            </picture>
+            <div class="main_inner">
+                <div class="catch_copy">
+                    <h2>お姫様気分で自分を大切に<br>可愛がってあげる時間を。</h2>
+                    <p>プライベートサロンであるソレイユ憩は40代以降の女性を対象にあなたが元気に輝くお手伝いを美容＆健康を通してサポートいたします。</p>
+                </div>
+                <div class="icon_sns">
+                    <img src="images/icon_instagram_pc.svg" alt="インスタグラムのアイコン">
+                    <img src="images/icon_facebook_pc.svg" alt="Facebookのアイコン">
+                    <img src="images/icon_line_pc.svg" alt="LINEのアイコン">
+                </div>
+            </div>
+        </div>
+
+        <div id="top_info" class="wrapper">
+            <dl>
+                <dt>ソレイユ憩では、新型コロナウイルス感染防止のため<br>下記の対策を実施しております。</dt>
+                <dd>完全予約制となっております。</dd>
+                <dd>予約の間に換気を徹底しております。</dd>
+                <dd>施術者およびスタッフは施術時を含めて常時マスクの着用を実施し、また定期的にうがいを行っております。</dd>
+                <dd>お客様やスタッフが触れる場所は、アルコール消毒を徹底して行っております。</dd>
+                <dd>お客様には来院時、マスク着用と手指のアルコール消毒をお願いしております。</dd>
+            </dl>
+        </div>
+
+        <section id="concept" class="wrapper">
+            <div class="concept_img">
+                <img src="images/concept_pc.jpg" alt="サロン内の写真">
+            </div>
+            <h2 class="section_taitle_concept">CONCEPT</h2>
+            <div class="concept_inner">
+                <div class="concept1">
+                    <h3>女性は太陽。</h3>
+                    <p>家でも社会でも重要な役割を持っていると思います。女性が明るく元気で輝いていると周りを照らす太陽の様な存在です。
+                        「女性が輝く＝世界平和」に繋がると本気で信じています。
+                        あなたが元気に輝くお手伝いを美容＆健康を通してサポートさせて頂きます。</p>
+                </div>
+                <div class="flower01">
+                    <picture>
+                        <source srcset="images/flower01_sp.png" media="(max-width:767px)">
+                        <img src="images/flower01_pc.png" alt="花のイラスト">
+                    </picture>
+                </div>
+                <div class="concept2">
+                    <h3>女性の本当の魅力が出てくるのは40代から。<br>でも、お悩みも出てくるお年頃ですよね。</h3>
+                    <ul>
+                        <li>くすみ、シワ、シミが気になってきた。</li>
+                        <li>たるみ、むくみが気になってきた。</li>
+                        <li>写真を見てゾッとしたことがある。</li>
+                        <li>白髪が増えてきた。</li>
+                        <li>疲れやすい。疲れが取れない。</li>
+                        <li>そろそろ更年期⁉️</li>
+                        <li>代謝が悪く痩せにくくなってきた。</li>
+                        <li>イライラする。</li>
+                        <li>︎身体が硬くなる。</li>
+                        <li>そういえば自分に時間を使っていない。</li>
+                    </ul>
+                    <p>
+                        ストレスが全ての不調に繋がります。<br>
+                        女性は特に心と顔、身体はとても密接な関係にあります。お一人おひとりに寄り添いカウンセリングをし、根本から原因を探っていきます。そして、その方に合ったご提案をさせて頂きますので一緒に解決していきましょう。
+                    </p>
+                </div>
+                <div class="flower02">
+                    <picture>
+                        <source srcset="images/flower02_sp.png" media="(max-width:767px)">
+                        <img src="images/flower02_pc.png" alt="お花のイラスト">
+                    </picture>
+                </div>
+                <div class="illust">
+                    <img class="woman" src="images/woman_pc.png" alt="女性のイラスト">
+                    <img class="sign" src="images/total_beauty_salon_soleil_ikoi.svg" alt="サロン名サイン">
+                </div>
+                <div class="illust_sp">
+                    <img class="sign" src="images/total_beauty_salon_soleil_ikoi.svg" alt="サロン名サイン">
+                    <img class="woman" src="images/woman_pc.png" alt="女性のイラスト">
+                </div>
+            </div>
+            <div class="concept_img_sp">
+                <img src="images/concept_sp.jpg" alt="サロン内の写真">
+            </div>
+            </div>
+        </section>
+
+        <section id="menu" class="wrapper">
+            <div class="menu_list">
+                <div>
+                    <h2 class="section_taitle">MENU<br><span>メニュー</span></h2>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="#matsuyani">マツヤニパック & クレイセラピー</a></li>
+                        <li><a href="#esthetic">小顔マッサージ</a></li>
+                        <li><a href="#headspa">美人脳アロマドライヘッドスパ</a></li>
+                        <li><a href="#aroma">アロマヒーリングタッチ</a></li>
+                        <li><a href="#fasting">ファスティングサポート</a></li>
+                        <li><a href="#henna">ヘナトリートメント</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="matsuyani">
+                <div class="matsuyani_mainimg">
+                    <picture>
+                        <source srcset="images/matsuyanipack01_sp.jpg" media="(max-width:767px)">
+                        <img src="images/matsuyanipack01_pc.jpg" alt="マツヤニパックの写真">
+                    </picture>
+                </div>
+                <div>
+                    <h4 class="menu_name">マツヤニパック & クレイセラピー<br><span>(小顔マッサージ＆メーク付き)</span></h4>
+                    <div class="flower03">
+                        <picture>
+                            <source srcset="images/flower03_sp.png" alt="お花のイラスト">
+                            <img src="images/flower03_pc.png" alt="お花のイラスト">
+                        </picture>
+                    </div>
+                    <p class="price">¥7,500</p>
+                    <table>
+                        <tr>
+                            <td>体験［90分］</td>
+                            <td>¥4,500</td>
+                        </tr>
+                        <tr>
+                            <td>5回分チケット</td>
+                            <td>¥35,500［1回あたり¥7,100］</td>
+                        </tr>
+                    </table>
+                    <p class="explanation">温パックで毛穴クリーニング&天然ピーリング<br>
+                        天然素材で肌をデトックスします。産毛の脱毛 / 毛穴の汚れ / 皮脂 / 顔ダニ / 黒ずみ /
+                        古い角質（垢）を除去し新陳代謝をUPさせます。化粧品の浸透もUPし老化のスピードを抑えます。お顔の脱毛はもちろん、鼻毛、背中、手足など全身に行うことも出来ます。
+                    </p>
+                    <div class="matsuyani_sub_img">
+                        <picture>
+                            <source srcset="images/matsuyanipack02_sp.jpg" media="(max-width:767px)">
+                            <img src="images/matsuyanipack02_pc.jpg" alt="マツヤニパックの写真">
+                        </picture>
+                        <picture>
+                            <source srcset="images/matsuyanipack03_sp.jpg" media="(max-width:767px)">
+                            <img src="images/matsuyanipack03_pc.jpg" alt="マツヤニパックの写真">
+                        </picture>
+                        <picture>
+                            <source srcset="images/matsuyanipack04_sp.jpg" media="(max-width:767px)">
+                            <img src="images/matsuyanipack04_pc.jpg" alt="マツヤニパックの写真">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+            <picture>
+                <source srcset="images/flower04_sp.png" media="(max-width:767px)">
+                <img class="flower04" src="images/flower04_pc.png" alt="お花のイラスト">
+            </picture>
+            <div class="estetic_headspa">
+                <div id="esthetic">
+                    <picture>
+                        <source srcset="images/esthetic_sp.jpg" media="(max-width:767px)">
+                        <img class="mainimg" src="images/esthetic_pc.jpg" alt="エステの写真">
+                    </picture>
+                    <h4 class="menu_name">小顔マッサージ<br><span>(メーク付き)</span></h4>
+                    <p class="price">¥5,500<span>［60分］</span></p>
+                    <p class="explanation">リラックスしながらお顔の凝りほぐしマッサージ＆リンパを流し老廃物を排出します。［クレンジング - 洗顔 - 吸引 - 小顔ほぐしマッサージ - パター -
+                        パック
+                        - 仕上げ - 眉整え］</p>
+                </div>
+
+                <div id="headspa">
+                    <picture>
+                        <source srcset="images/headspa_sp.jpg" media="(max-width:767px)">
+                        <img class="mainimg" src="images/headspa_pc.jpg" alt="ヘッドスパの写真">
+                    </picture>
+                    <h4 class="menu_name">美人脳アロマドライヘッドスパ</h4>
+                    <p class="price">¥5,000<span>［40分］</span></p>
+                    <p class="explanation">頭皮をほぐすことで全身にもアプローチします。リフトアップ効果もあり、デコルテもほぐしてさらにリラックスすることができます。</p>
+                </div>
+            </div>
+
+            <div id="aroma">
+                <div>
+                    <picture>
+                        <source srcset="images/aroma01_sp.jpg" media="(max-width:767px)">
+                        <img class="mainimg" src="images/aroma01_pc.jpg" alt="アロマの写真">
+                    </picture>
+                </div>
+                <div>
+                    <h4 class="menu_name">アロマヒーリングタッチ</h4>
+                    <picture>
+                        <source srcset="images/flower03_sp.png" media="(max-width:767px)">
+                        <img class="flower03" src="images/flower03_pc.png" alt="お花のイラスト">
+                    </picture>
+                    <p class="price">¥6,000<span>［60分］</span></p>
+                    <p class="explanation">8種類のアロマオイルを40滴垂らして脊柱にアプローチします。<br>
+                        肩こり、冷え性、腰痛、更年期、不眠症、むくみ、自律神経調整など。</p>
+                    <picture>
+                        <source srcset="images/aroma02_sp.jpg" media="(max-width:767px)">
+                        <img class="aroma_sub_img" src="images/aroma02_pc.jpg" alt="アロマオイルの写真">
+                    </picture>
+                </div>
+            </div>
+            <picture>
+                <source srcset="images/flower05_sp.png" media="(max-width:767px)">
+                <img class="flower05" src="images/flower05_pc.png" alt="お花のイラスト">
+            </picture>
+            <div class="fasting_henna">
+                <div id="fasting">
+                    <picture>
+                        <source srcset="images/fasting_sp.jpg" media="(max-width:767px)">
+                        <img class="mainimg" src="images/fasting_pc.jpg" alt="ファスティングの写真">
+                    </picture>
+                    <h4 class="menu_name">ファスティング</h4>
+                    <p class="price">¥21,168<span>［一食置き換えファスティングサポート］</span></p>
+                    <p class="price">¥31,000<span>［3日間ファスティングサポート］</span></p>
+                    <p>※ドリンク代込</p>
+                    <div class="btn_fasting">
+                        <p><a href="">詳細はこちら ▶</a></p>
+                    </div>
+                </div>
+
+                <div id="henna">
+                    <picture>
+                        <source srcset="images/hennatreatment01_sp.jpg" media="(max-width:767px)">
+                        <img class="mainimg" src="images/hennatreatment01_pc.jpg" alt="ヘナトリートメントの写真">
+                    </picture>
+                    <h4 class="menu_name">ヘナトリートメント<br><span>体験 & レッスン</span></h4>
+                    <p class="price">¥2,500</p>
+                    <p class="explanation">髪にハリ、艶、コシが欲しい人、そして白髪で御悩みの方におすすめです。ショート、ロングに関わらず一律料金となっております。</p>
+                    <picture>
+                        <source srcset="images/hennatreatment02_sp.jpg" media="(max-width:767px)">
+                        <img class="henna_sub_img" src="images/hennatreatment02_pc.jpg" alt="ヘナトリートメントの写真">
+                    </picture>
+                    <picture>
+                        <source srcset="images/flower06_sp.png" media="(max-width:767px)">
+                        <img class="flower06" src="images/flower06_pc.png" alt="お花のイラスト">
+                    </picture>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="staff" class="wrapper">
+            <h2 class="section_taitle">STAFF<br><span>スタッフご挨拶</span></h2>
+            <div class="staff_inner">
+                <div>
+                    <picture>
+                        <source srcset="images/keiko_takenaka_sp.jpg" media="(max-width:767px)">
+                        <img src="images/keiko_takenaka_pc.jpg" alt="竹中敬子の写真">
+                    </picture>
+                </div>
+                <div class="staff_aisatsu">
+                    <p class="staff_title">ビューティープランナー</p>
+                    <p class="staff_name">竹中 敬子</p>
+                    <p class="staff_eg">Keiko takenaka</p>
+                    <p class="staff_aisatsu_inner">
+                        美容歴15年。幼稚園教諭経験を得て美容業界に人を通してご縁があり、某化粧品代理店などを経営。今は、自宅にて40代以降のお悩み解決サロンとしてリニューアル。<br>
+                        お肌や身体の悩みがなかった私でしたが、40代以降ストレスから様々な不調を体験しました。それからは根本解決に向けて研究し、もともと面倒くさがりな私はいかにシンプルにポイントを押さえて、続く方法をコンセプトに日々、探求しています。美容＆健康トータルでお任せください。
+                    </p>
+                    <div class="qualification">
+                        <p>【資格】</p>
+                        <ul>
+                            <li>一般大法人日本ファスティング協会ファスティングセラピスト</li>
+                            <li>コパンシュシュアンバサダー（マツヤニホットセラピーインストラクター）</li>
+                            <li>クィーンズヘナインストラクター</li>
+                            <li>美人脳アロマヘッドスパ認定</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <picture>
+                <source srcset="images/flower07_sp.png" media="(max-width:767px)">
+                <img class="flower07" src="images/flower07_pc.png" alt="お花のイラスト">
+            </picture>
+        </section>
+
+        <section id="access" class="wrapper">
+            <h2 class="section_taitle">ACCESS<br><span>アクセス</span></h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3270.804453572912!2d135.68213721518305!3d34.936440878063706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600105d37d3cf53d%3A0x556062ab70e4025!2z44Ko44K544OG44K144Ot44OzU29sZWls5oap!5e0!3m2!1sja!2sjp!4v1664613743791!5m2!1sja!2sjp"
+                width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="access_info_bg">
+                <div class="access_info">
+                    <div class="access_info_left">
+                        <p class="adress">〒617-0814<br>
+                            京都府長岡京市今里彦林13-6</p>
+                        <p>営業時間 / 9:00 - 18:00</p>
+                        <p>定休日 / 不定休</p>
+                    </div>
+                    <div>
+                        <p class="tel">090-5259-6865</p>
+                        <p class="mail">soleil_281_keiko_888@tahoo.co.jp</p>
+                        <p class="line"><a href="">公式LINE登録はこちら</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="contact">
+                <div class="instagram_follow_me">
+                    <h4>FOLLOW ME</h4>
+                    <a href="">
+                        <div class="instagram_btn_icon">
+                            <img src="images/icon_instagram_follow_pc.svg" alt="インスタグラムのアイコン">
+                            <p class="instagram_btn">Instagram</p>
+                        </div>
+                    </a>
+                    <p class="contact_text">サロンからのお知らせはInstagramで発信しています。是非フォローして下さい。</p>
+                </div>
+
+                <div class="official_line">
+                    <h4>ご予約はこちらから</h4>
+                    <div class="official_line_btn">
+                        <a href="">
+                            <picture>
+                                <source srcset="images/line_official_account_sp.svg" media="(max-width:767px)">
+                                <img src="images/line_official_account_pc.svg" alt="LINE公式アカウント">
+                            </picture>
+                        </a>
+                    </div>
+                    <p class="contact_text">完全ご予約制となっております。公式LINEよりお問い合わせください。</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="footer">
+        <div class="footer_nav">
+            <h1 class="footer_logo">
+                <a href="#">
+                    <picture>
+                        <source srcset="images/logo_sp.svg" media="(max-width:767px)">
+                        <img src="images/logo_pc.svg" alt="ソレイユ憩">
+                    </picture>
+                </a>
+            </h1>
+            <ul>
+                <li><a href="#concept">
+                        <span class="ft_g_nav_eg">CONCEPT</span><br>
+                        <span class="ft_g_nav_ja">サロンについて</span>
+                    </a>
+                </li>
+                <li><a href="#menu">
+                        <span class="ft_g_nav_eg">MENU</span><br>
+                        <span class="ft_g_nav_ja">メニュー</span>
+                    </a>
+                </li>
+                <li><a href="#staff">
+                        <span class="ft_g_nav_eg">STAFF</span><br>
+                        <span class="ft_g_nav_ja">スタッフご挨拶</span>
+                    </a>
+                </li>
+                <li><a href="#access">
+                        <span class="ft_g_nav_eg">ACCESS</span><br>
+                        <span class="ft_g_nav_ja">アクセス</span>
+                    </a>
+                </li>
+                <li><a href="">
+                        <span class="ft_g_nav_eg">CONTACT</span><br>
+                        <span class="ft_g_nav_ja">お問い合わせ</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <p>© Copyright soleil憩</p>
+    </footer>
+
+    <script>
+        $(function () {
+            $(window).on('scroll', function () {
+                if ($('.mainvisual').height() < $(this).scrollTop()) {
+                    $('.header').addClass('change_color');
+                } else {
+                    $('.header').removeClass('change_color');
+                }
+            });
+
+            // $('.btn,.sp_nav a').click(function () {
+            //     $('.sp_nav').fadeToggle();
+            //     $('.btn').toggleClass('open');
+            // });
+
+        });
+
+        $(function () {
+            $('a[href^="#"]').click(function () {
+                var speed = 500;
+                var href = $(this).attr("href");
+                var target = $(href == "#" || href == "" ? 'html' : href);
+                var position = target.offset().top;
+                $("html, body").animate({ scrollTop: position }, speed, "swing");
+                return false;
+            });
+
+            $('.btn,.sp_nav a').click(function () {
+                $('.sp_nav').fadeToggle();
+                $('.btn').toggleClass('open');
+            });
+        });
+
+    </script>
+</body>
+
+</html>

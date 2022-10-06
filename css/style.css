@@ -92,8 +92,8 @@ body {
 }
 
 .reserve_btn {
-    background-color: #FFFDFA;
-    border: 0.75px solid #80C4CE;
+    background-color: #F9D401;
+    border: 0.75px solid #F9D401;
     width: 132px;
     height: 48px;
     border-radius: 50px;
@@ -105,7 +105,7 @@ body {
     font-family: 'Noto Sans JP', sans-serif;
     letter-spacing: 0.1em;
     font-weight: 500;
-    color: #80C4CE;
+    color: #ffffff;
 }
 
 .header {
@@ -256,7 +256,7 @@ body {
 }
 
 #top_info dt {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 40px;
     text-align: center;
     margin-bottom: 40px;
@@ -353,6 +353,8 @@ body {
 .concept2 ul li {
     margin-bottom: 16px;
     letter-spacing: 0.04em;
+    margin-left: 2.4em;
+    text-indent: -2.4em;
 }
 
 .concept2 ul li::before {
@@ -437,7 +439,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 750px;
+    max-width: 750px;
 }
 
 .menu_list ul li {
@@ -797,7 +799,6 @@ iframe {
 
 .contact_text {
     font-family: 'Noto Sans JP';
-    width: 248px;
     margin-top: 32px;
     line-height: 24px;
     letter-spacing: 0.04em;
@@ -811,6 +812,7 @@ iframe {
     padding-left: 65px;
     align-items: center;
     margin-top: 100px;
+    width: 200px;
 }
 
 .instagram_btn {
@@ -838,7 +840,7 @@ iframe {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 72%;
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 64px;
@@ -861,11 +863,11 @@ iframe {
 
 .ft_g_nav_ja {
     font-family: 'Noto Sans JP', sans-serif;
-    font-size: 10px;
+    font-size: 0.625rem;
     letter-spacing: 0.1em;
 }
 
-#footer p {
+.copyright {
     text-align: center;
     font-size: 10px;
     font-family: 'Noto Sans JP', sans-serif;
@@ -1015,6 +1017,27 @@ iframe {
         max-width: 727px;
     }
 
+    .nav_box {
+        width: 93%;
+        max-width: 727px;
+    }
+
+    .btn {
+        top: 23px;
+    }
+
+    .header {
+        height: 66px;
+    }
+
+    .icon_sns {
+        right: 24px;
+    }
+
+    .header_logo {
+        padding: 12.5px
+    }
+
     .menu_list {
         display: block;
     }
@@ -1030,6 +1053,14 @@ iframe {
 
     .main_inner p {
         max-width: 476px;
+    }
+
+    #top_info dl {
+        padding: 34px;
+    }
+
+    #top_info dt {
+        text-align: left;
     }
 
     .concept_inner {
@@ -1051,23 +1082,34 @@ iframe {
     }
 
     .concept1 p {
-        width: 80%;
+        width: 100%;
         max-width: none;
+        padding-right: 0;
+    }
+
+    .concept1 h3 {
+        font-size: 22px;
+        margin-bottom: 40px;
+        padding-top: 44px;
     }
 
     .concept2 {
         width: 90%;
-        margin: -134px auto 0;
+        margin: 40px auto 0;
         padding-left: 0;
     }
 
     .concept2 p {
-        width: 80%;
+        width: 100%;
+    }
+
+    .concept2 h3 {
+        font-size: 22px;
+        margin-bottom: 32px
     }
 
     .flower01 {
-        top: -98px;
-        left: 78%;
+        display: none;
     }
 
     .flower02 {
@@ -1086,8 +1128,12 @@ iframe {
         margin: 0 auto;
     }
 
+    .sign {
+        width: 149px;
+    }
+
     .woman {
-        width: 50%;
+        width: 150px;
     }
 
     .concept_img_sp {
@@ -1098,17 +1144,18 @@ iframe {
         padding-top: 88px;
     }
 
+    .price {
+        margin-top: -10px;
+        margin-bottom: 24px;
+    }
+
     .menu_list .section_taitle {
         margin-bottom: 24px;
         margin-right: 0;
     }
 
-    .menu_list ul {
-        max-width: 727px;
-    }
-
     .menu_list ul li {
-        width: 100%;
+        width: auto;
         max-width: 727px;
     }
 
@@ -1121,9 +1168,15 @@ iframe {
         max-width: 727px;
     }
 
+    #matsuyani table {
+        margin-bottom: 24px;
+        padding: 5px 0;
+    }
+
     .explanation {
         max-width: 727px;
         width: 100%;
+        line-height: 28px;
     }
 
     #matsuyani .explanation {
@@ -1164,12 +1217,13 @@ iframe {
 
     .flower03 {
         margin-left: 80%;
-        margin-top: -112px;
+        margin-top: -58px;
         width: 20%;
     }
 
     #aroma .explanation {
-        width: 727px;
+        max-width: 727px;
+        width: 100%;
     }
 
     .fasting_henna {
@@ -1178,6 +1232,10 @@ iframe {
 
     #fasting {
         width: 100%;
+    }
+
+    .btn_fasting {
+        margin-top: 32px;
     }
 
     .flower04 {
@@ -1190,17 +1248,22 @@ iframe {
 
     #henna {
         width: 100%;
-        padding-top: 80px;
+        padding-top: 64px;
     }
 
     .flower06 {
         width: 20%;
         margin-left: 80%;
-        margin-top: -123px;
+        position: relative;
+        bottom: 59px;
     }
 
     .staff_inner {
         display: block;
+    }
+
+    #staff .section_taitle {
+        margin-bottom: 40px;
     }
 
     #staff img {
@@ -1211,15 +1274,29 @@ iframe {
     .staff_aisatsu {
         width: 100%;
         max-width: 727px;
+        padding-top: 24px;
     }
 
     #staff .flower07 {
-        margin-left: 73%;
+        margin-left: 43%;
     }
 
     #access {
         padding-top: 80px;
         margin-bottom: 80px;
+    }
+
+    #access .section_taitle {
+        margin-bottom: 40px;
+    }
+    .access_info {
+        display: block;
+        padding: 40px 10.5%;
+    }
+
+    .access_info_left {
+        margin-right: 0;
+        margin-bottom: 20px;
     }
 
     .contact {
@@ -1229,13 +1306,13 @@ iframe {
 
     .instagram_follow_me {
         width: 90%;
-        padding: 60px 20px;
+        padding: 0;
         max-width: 727px;
         margin: 0 auto;
     }
 
     .contact h4::after {
-        left: 46%;
+        left: 44%;
     }
 
     .instagram_btn_icon {
@@ -1245,13 +1322,14 @@ iframe {
 
 
     .contact_text {
-        width: auto;
+        width: 90%;
         text-align: center;
+        margin: 32px auto;
     }
 
     .official_line {
         width: 90%;
-        padding: 60px 20px;
+        padding: 0;
         max-width: 727px;
         margin: 32px auto 0;
     }
@@ -1261,6 +1339,10 @@ iframe {
         width: 251px;
     }
 
+    #footer {
+        margin-top: 48px;
+    }
+    
     .footer_nav {
         display: block;
     }
@@ -1276,6 +1358,6 @@ iframe {
     }
 
     .footer_nav ul li {
-        margin-bottom: 16px;
+        margin: 12px 12px;
     }
 }

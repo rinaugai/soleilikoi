@@ -783,6 +783,7 @@ iframe {
     color: #80C4CE;
     position: relative;
     font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
 }
 
 .contact h4::after {
@@ -793,7 +794,7 @@ iframe {
     background-color:#80C4CE;
     position:absolute;
     top: 76px;
-    left: 92px;
+    left: 38%;
     transform: rotate(90deg);
 }
 
@@ -1244,10 +1245,13 @@ iframe {
     .menu_list ul li {
         width: auto;
         max-width: 727px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     #matsuyani {
         display: block;
+        padding-top: 80px;
     }
 
     .matsuyani_mainimg {
@@ -1277,6 +1281,7 @@ iframe {
 
     .estetic_headspa {
         display: block;
+        padding-top: 0;
     }
 
     #esthetic {
@@ -1327,6 +1332,8 @@ iframe {
 
     .flower04 {
         width: 20%;
+        margin-bottom: -20px;
+        padding-top: 40px;
     }
 
     .flower05 {
@@ -1381,7 +1388,8 @@ iframe {
     }
 
     #staff .flower07 {
-        margin-left: 43%;
+        margin-left: 59%;
+        width: 134px;
     }
 
     #access {
@@ -1416,12 +1424,12 @@ iframe {
 
     .contact h4 {
         font-size: 20px;
-        font-weight: 400;
     }
 
     .contact h4::after {
-        left: 40%;
-        top: 67px;
+        left: 42%;
+        top: 66px;
+        width: 48px;
     }
 
     .instagram_btn_icon {

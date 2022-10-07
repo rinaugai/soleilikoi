@@ -1232,7 +1232,7 @@ iframe {
     }
 
     .concept1 h3 {
-        font-size: 22px;
+        font-size: 20px;
         margin-bottom: 40px;
         padding-top: 44px;
     }
@@ -1249,7 +1249,7 @@ iframe {
     }
 
     .concept2 h3 {
-        font-size: 22px;
+        font-size: 20px;
         margin-bottom: 32px;
         line-height: 34px;
     }
@@ -1296,6 +1296,7 @@ iframe {
 
     .menu_name {
         font-size: 20px;
+        margin: 20px 0 24px;
     }
 
     .menu_name span {
@@ -1303,7 +1304,6 @@ iframe {
     }
 
     .price {
-        margin-top: -10px;
         margin-bottom: 24px;
         font-size: 20px;
     }
@@ -1318,6 +1318,7 @@ iframe {
         max-width: 727px;
         padding-top: 20px;
         padding-bottom: 20px;
+        font-size: 17px;
     }
 
     #matsuyani {
@@ -1338,7 +1339,8 @@ iframe {
     .explanation {
         max-width: 727px;
         width: 100%;
-        line-height: 28px;
+        font-size: 15px;
+        line-height: 24px;
     }
 
     #matsuyani .explanation {
@@ -1378,15 +1380,24 @@ iframe {
         max-width: 727px;
     }
 
+    #aroma .menu_name {
+        margin-bottom: 14px;
+    }
+
     .flower03 {
-        margin-left: 80%;
+        /* margin-left: 80%;
         margin-top: -50px;
-        width: 20%;
+        width: 20%; */
+        display: none;
     }
 
     #aroma .explanation {
         max-width: 727px;
         width: 100%;
+    }
+
+    .aroma_sub_img {
+        margin-top: 24px;
     }
 
     .fasting_henna {
@@ -1416,6 +1427,10 @@ iframe {
     #henna {
         width: 100%;
         padding-top: 64px;
+    }
+
+    .henna_sub_img {
+        margin-top: 24px;
     }
 
     .flower06 {

@@ -999,10 +999,11 @@ iframe {
     }
     
     .sp_nav ul{
-        height: 100%;
+        height: 48%;
         display: flex;
         justify-content: center;
         flex-direction: column;
+        margin-top: 30%;
     }
 
     .sp_nav ul li {
@@ -1017,7 +1018,7 @@ iframe {
         font-family: 'Lora', serif;
         letter-spacing: 0.1em;
         color: #63636D;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
     }
     
     .g_nav_ja_sp {
@@ -1025,7 +1026,7 @@ iframe {
         font-size: 10px;
         letter-spacing: 0.1em;
         color: #63636D;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
     }
 
     .g_nav_eg_sp_btn {
@@ -1035,12 +1036,23 @@ iframe {
     }
     
     .g_nav_ja_sp_btn {
-        font-family: 'Noto Sans JP', sans-serif;
-        font-size: 10px;
-        letter-spacing: 0.1em;
-        color: #F9D401;
+        background-color: #F9D401;
+        border: 0.75px solid #F9D401;
+        width: 240px;
+        height: 48px;
+        border-radius: 50px;
+        margin: 0 auto;
+        text-align: center;
     }
 
+    .g_nav_ja_sp_btn p {
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 16px;
+        letter-spacing: 0.1em;
+        color: #ffffff;
+        font-weight: 500;
+        padding: 15px 60px;
+    }
 
     .sp_nav li:last-child {
         padding-bottom: 40px;
@@ -1135,6 +1147,23 @@ iframe {
     .btn span::after{
         background: #80C4CE;
     }
+
+    .open span{
+        background: transparent;
+    }
+    
+    .open span::before{
+        transform: rotate(45deg);
+        bottom: 0px;
+        background: #80C4CE;
+    }    
+    
+    .open span::after{
+        transform: rotate(135deg);
+        top: 0px;
+        background: #80C4CE;
+    }
+
 
     .header {
         /* height: 52px;

@@ -55,7 +55,7 @@ body {
 
 
 .wrapper {
-    width: 93%;
+    width: 96%;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -79,16 +79,16 @@ body {
 .g_nav_eg {
     font-family: 'Lora', serif;
     letter-spacing: 0.1em;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #63636D;
+    /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
 }
 
 .g_nav_ja {
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 10px;
     letter-spacing: 0.1em;
-    color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #63636D;
+    /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
 }
 
 .reserve_btn {
@@ -109,7 +109,7 @@ body {
 }
 
 .header {
-    /* padding: 10px 6.5% 0 6.5%; */
+    /* padding: 10px 6.5% 0 6.5%;
     height: 90px;
     position: absolute;
     top: 0;
@@ -117,16 +117,35 @@ body {
     right: 0;
     z-index: 100;
     position: fixed;
-    padding-top: 10px;
+    padding-top: 10px; */
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    position: fixed;
+    /* padding-top: 11px; */
+    background-color: #ffffff;
+    width: 96%;
+    margin: 8px auto;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.25);
 }
 
 .nav_box {
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
     width: 93%;
     max-width: 1200px;
     align-items: center;
-    margin: 0 auto;
+    margin: 0 auto; */
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    max-width: 1200px;
+    align-items: center;
+    margin: 11px auto;
 }
 
 .change_color {
@@ -155,18 +174,22 @@ body {
 } */
 
 
-.header_logo {
-    background: #FFFDFA;
-    padding: 10px;
-}
+/* .header_logo {
+    /* background: #FFFDFA;
+    padding: 10px; */
+
 
 .header_g_nav {
     display: flex;
-    margin-right: -20%;
+    margin-left: 298px;
 }
 
 .header_g_nav li {
-    margin-left: 44px;
+    margin-left: 40px;
+}
+
+.icon_sns_sp {
+    display: none;
 }
 
 .sp_nav {
@@ -209,7 +232,7 @@ body {
     margin-bottom: 12px;
     text-align: center;
     color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
 .main_inner p {
@@ -220,7 +243,7 @@ body {
     max-width: 666px;
     margin: 0 auto;
     color: #FFFFFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
 .icon_sns {
@@ -905,14 +928,14 @@ iframe {
         display: block;
         cursor: pointer;
         position: absolute;
-        top: 40px;
+        top: 29px;
         right: 28px;
         height: 30px;
         z-index: 100;
     }
 
     .btn span{
-        background: #fff;
+        background: #80C4CE;
         width: 30px;
         height: 3px;
         display: block;
@@ -927,7 +950,7 @@ iframe {
         content:'';
         width: 30px;
         height: 3px;
-        background: #fff;
+        background: #80C4CE;
         display: block;
         position: absolute;
         transition: 0.3s;
@@ -1076,25 +1099,60 @@ iframe {
     .nav_box {
         width: 93%;
         max-width: 727px;
+        margin: 4px auto;
     }
 
+    .icon_sns_sp {
+        display: block;
+        margin-right: 48px;
+    }
+
+    .icon_sns_sp img {
+        width: 32px;
+        margin-right: 8px;
+    }
+
+
     .btn {
-        top: 20px;
+        top: 12px;
+        right: 18px;
+    }
+
+    .btn span{
+        background: #80C4CE;
+    }
+
+    .btn span::before, 
+    .btn span::after{
+        background: #80C4CE;
     }
 
     .header {
-        height: 52px;
-        padding-top: 8px
+        /* height: 52px;
+        padding-top: 8px */
+        height: 47px;
+        background-color: #ffffff;
+        width: 94%;
+        margin: 8px auto;
+        border-radius: 4px;
+        box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.25);
     }
 
+
     .icon_sns {
-        right: 24px;
-        bottom: 32px;
+        /* right: 24px;
+        bottom: 32px; */
+        display: none;
     }
 
     .header_logo {
-        padding: 6px;
-        width: 80px;
+        padding: 0;
+        background-color: transparent;
+        width: 93px;
+    }
+
+    .mainvisual {
+        margin-bottom: 72px;
     }
 
     .menu_list {

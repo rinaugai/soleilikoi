@@ -1093,6 +1093,7 @@ iframe {
 
 @media screen and (max-width:767px) {
     .wrapper {
+        width: 92%;
         max-width: 727px;
     }
 
@@ -1275,6 +1276,10 @@ iframe {
 
     .concept_img_sp {
         display: block;
+    }
+
+    .section_taitle {
+        font-size: 36px;
     }
 
     #menu {

@@ -753,12 +753,20 @@ iframe {
     line-height: 32px;
 }
 
+.tel {
+    text-decoration: underline;
+}
+
 .tel::before{
     position: relative;
     top: 3px;
     margin: 0 16px 0 0;
     content: url(../images/icon_tel_pc.svg);
 }
+
+/* .mail {
+    text-decoration: underline;
+} */
 
 .mail::before{
     position: relative;

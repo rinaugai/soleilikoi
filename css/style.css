@@ -1099,7 +1099,7 @@ iframe {
     .nav_box {
         width: 93%;
         max-width: 727px;
-        margin: 4px auto;
+        margin: 10px auto;
     }
 
     .icon_sns_sp {
@@ -1114,7 +1114,7 @@ iframe {
 
 
     .btn {
-        top: 12px;
+        top: 18px;
         right: 18px;
     }
 
@@ -1130,10 +1130,10 @@ iframe {
     .header {
         /* height: 52px;
         padding-top: 8px */
-        height: 47px;
+        height: 60px;
         background-color: #ffffff;
         width: 94%;
-        margin: 8px auto;
+        margin: 6px auto;
         border-radius: 4px;
         box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.25);
     }
@@ -1164,7 +1164,7 @@ iframe {
     }
 
     .main_inner {
-        bottom: 35%;
+        bottom: 30%;
     }
     
     .main_inner h2 {
